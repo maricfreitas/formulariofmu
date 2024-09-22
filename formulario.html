@@ -26,11 +26,34 @@
   </div>
 
   <div>
-    <label for="rg">Digite o CPF</label>
-    <input type="text" id="cpf" name="cpf">
+    <label for="cpf">Digite o CPF</label>
+    <input type="text" id="cpf" name="cpf"required>
+  </div>
+  
+  <div>
+    <label for="fone">Numero de Telelefone</label>
+    <input type="text" id="fone" name="fone" inputmode="numeric" maxlength="11" 
+    pattern="[0,9{2}] [0,9{5}] [0,9{4}]]" placeholder="11 99999-9999">
   </div>
 
-  
+  <div>
+    <label for="carteirinha">Numero da Carteirinha</label>
+    <input type="text" id="carteirinha" name="carteirinha" inputmode="numeric" maxlength="6">
+  </div>
+
+  <div>
+    <p>Qual o tipo de Livro:</p>
+    <label for="fisico">Fisico</label>
+    <input type="radio" id="fisico" name="Livro" value="Fisico">
+  </div>
+
+  <div>
+    <label for="digital">digital</label>
+    <input type="radio" id="digital" name="Livro" value="Digital">
+
+  </div>
+
+
 
 
   </body>
