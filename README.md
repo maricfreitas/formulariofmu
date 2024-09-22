@@ -1,5 +1,5 @@
 # Pesquisa Sobre Gêneros Literários
-![Logo](./assets/imagens/bibliotecaLogo.png)
+![Logo](./assets/images/bibliotecaLogo.png)
 
 <div align: justify>    Uma pesquisa com com os nossos leitores sobre quais são os gêneros literários mais lidos e procurados do nosso catálogo.
 A Pesquisa tem por finalidade de melhorar a experiência dos nossos leitores a fim de apresentar novos horizontes através da infinidade de conteúdos encontrados em nosso acervo.</div>
