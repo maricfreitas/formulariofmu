@@ -4,26 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+    </style>
     <title>Biblioteca</title>
   </head>
   <body>
-
-    <div>
-      <label for="E-mail">Digite seu E-mail</label>
+    <div class="form-group">
+      <label for="email">Digite seu E-mail</label>
       <input type="email" id="email" name="email" required>
-  </div>
-  
-  
-  <div>
+    </div>
+    
+    <div class="form-group">
       <label for="nome">Nome Completo</label>
       <input type="text" id="nome" name="nome" required>
-  </div>
-  
+    </div>
 
-  <div>
-    <label for="data de nasc">Data de Nascimento</label>
-    <input type="date" id="data nasc" name="data nasc">
-  </div>
+    <div class="form-group">
+      <label for="data-nasc">Data de Nascimento</label>
+      <input type="date" id="data-nasc" name="data-nasc">
+    </div>
 
   <div>
     <label for="cpf">Digite o CPF</label>
@@ -54,7 +61,60 @@
   </div>
 
 
+    <div class="form-group">
+      <label for="cpf">Digite o CPF</label>
+      <input type="text" id="cpf" name="cpf" inputmode="numeric">
+    </div>
 
+    
+    <div class="form-group">
+      <label for="autor-favorito">Autor Favorito</label>
+      <input type="text" id="autor-favorito" name="autor-favorito">
+    </div>
+
+
+    
+    <div class="form-group">
+      <label>Categorias de Livros (Escolha suas preferências):</label><br>
+      <input type="checkbox" id="romance" name="categoria" value="Romance">
+      <label for="romance">Romance</label><br>
+
+      <input type="checkbox" id="acao" name="categoria" value="Ação">
+      <label for="acao">Ação</label><br>
+
+      <input type="checkbox" id="suspense" name="categoria" value="Suspense">
+      <label for="suspense">Suspense</label><br>
+
+      <input type="checkbox" id="ficcao" name="categoria" value="Ficção">
+      <label for="ficcao">Ficção Científica</label><br>
+
+      <input type="checkbox" id="fantasia" name="categoria" value="Fantasia">
+      <label for="fantasia">Fantasia</label><br>
+
+      <input type="checkbox" id="biografia" name="categoria" value="Biografia">
+      <label for="biografia">Biografia</label><br>
+
+      <input type="checkbox" id="historico" name="categoria" value="Histórico">
+      <label for="historico">Histórico</label><br>
+
+      <input type="checkbox" id="terror" name="categoria" value="Terror">
+      <label for="terror">Terror</label><br>
+
+      <input type="checkbox" id="aventura" name="categoria" value="Aventura">
+      <label for="aventura">Aventura</label><br>
+
+      <input type="checkbox" id="policial" name="categoria" value="Policial">
+      <label for="policial">Policial</label><br>
+    </div>
+
+    <div class="form-group">
+      <label>Deseja receber novidades e atualizações sobre novos livros?</label><br>
+      <input type="radio" id="sim" name="novidades" value="sim">
+      <label for="sim">Sim</label><br>
+
+      <input type="radio" id="nao" name="novidades" value="nao">
+      <label for="nao">Não</label>
+    </div>
 
   </body>
 </html>
