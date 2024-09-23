@@ -23,7 +23,7 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 - [x] Opção para receber novidades e atualizações sobre novos livros.
 
 ## Layout
-<img src="/assets/images/layout.jpeg" alt="Layout do Formulário" width="500px">
+<p align="center"><img src="/assets/images/layout.jpeg" alt="Layout do Formulário" width="500px"></p>
 
 ## Tecnologias Utilizadas
 - [x] HTML;
