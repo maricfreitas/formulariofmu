@@ -13,7 +13,7 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 6. <a href="#pessoas-autoras">Pessoas Autoras</a>
 
 ## Como Funciona?
-<p align="justify">Trata-se de um formulário que será utilizado não só para estudarmos os gêneros literários mais lidos, mas também uma forma de divulgar livros relacionados para incentivar ainda mais a leitura e impulsionar as vendas de outros livros importantes do acervo.<p>
+<p align="justify">Trata-se de um formulário que será utilizado não apenas para estudarmos os gêneros literários mais lidos, mas também uma forma de divulgar livros relacionados para incentivar ainda mais a leitura e impulsionar as vendas de outros livros importantes do acervo.<p>
 <p align="justify">No formulário, o leitor precisará inserir os dados de identificação e contato, o tipo de mídia, autor preferido e o gênero literário. Após isso, um botão de indicação de livros poderá ser acionado para num pop-up a indicação ser mostrada.</p>
 <p align="justify">Caso o usuário não selecione o gênero literário, uma mensagem ("Por favor, selecione pelo menos uma categoria.") aparecerá solicitando o preenchimento.</p>
 <p align="justify">Ao acionar os botões "Enviar" e "Cancelar", os dados preenchidos no formulário serão apagados para que uma nova pesquisa seja iniciada e um pop-up com a mensagem "Formulário enviado com sucesso" aparecerá ao "pressionar"o primeiro botão.</p>
