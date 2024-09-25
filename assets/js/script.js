@@ -45,6 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sendFormBtn.addEventListener('click', function(e) {
         form.submit();
-        alert('Formulário enviar com sucesso');
+        alert('Formulário enviado com sucesso');
     });
 });
