@@ -1,11 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
-    const suggestionArea = document.createElement('div'); 
-    suggestionArea.style.marginTop = '20px';
-    suggestionArea.style.fontSize = '18px';
-    suggestionArea.style.fontWeight = 'bold';
-    suggestionArea.style.color = '#007bff';
-    form.appendChild(suggestionArea); 
+    const bookBtn = document.getElementById('book');
+    const sendFormBtn = document.getElementById('send-form');
 
     const books = {
         Romance: ['Orgulho e Preconceito - Jane Austen', 'A Culpa é das Estrelas - John Green'],
@@ -20,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Policial: ['O Silêncio dos Inocentes - Thomas Harris', 'A Garota no Trem - Paula Hawkins']
     };
 
-    form.addEventListener('submit', (event) => {
-        event.preventDefault();
+    const suggestBooks = () => {
         const selectedCategories = Array.from(form.querySelectorAll('input[name="categoria"]:checked'))
             .map(checkbox => checkbox.value); 
 
@@ -36,10 +31,20 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             if (suggestedBooks.length > 0) {
-                suggestionArea.textContent = `Sugestões de Livros: ${suggestedBooks.join(', ')}`;
+                alert(`Sugestões de Livros: ${suggestedBooks.join(', ')}`);
             }
         } else {
-            suggestionArea.textContent = 'Por favor, selecione pelo menos uma categoria.';
+            alert('Por favor, selecione pelo menos uma categoria.');
         }
+    };
+
+    bookBtn.addEventListener('click', function(e) {
+        e.preventDefault(); 
+        suggestBooks();  
+    });
+
+    sendFormBtn.addEventListener('click', function(e) {
+        form.submit();
+        alert('Formulário enviar com sucesso');
     });
 });
