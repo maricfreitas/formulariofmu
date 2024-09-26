@@ -33,14 +33,15 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 - [x] HTML;
 - [x] CSS;
 - [x] CSS-Bootstrap;
-- [x] Javascript.
+- [x] Javascript;
+- [x] Vercel.
 
 ## Como Rodar?
-
+<p align="justify">&emsp;O formulário foi hospedado no <a href="https://vercel.com">Vercel</a>, e para acessá-lo, basta copiar o link (https://formulariofmu.vercel.app/) ou <a href="https://formulariofmu.vercel.app/">clicar aqui</a>.
 
 ## Pessoas Autoras
-- Alan Ishikawa
-- Dayane Lisboa da Silva
-- John Bispo dos Santos Silva
-- Mariana de Campos Freitas
-- Vitor Manoel de Jesus Santana
+- Alan Ishikawa;
+- Dayane Lisboa da Silva;
+- John Bispo dos Santos Silva;
+- Mariana de Campos Freitas;
+- Vitor Manoel de Jesus Santana.
