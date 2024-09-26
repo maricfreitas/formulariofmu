@@ -1,3 +1,44 @@
-body{
-    background-color: #000000;
+.form-group {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 2%;
+    maxb-width: 600px;
+}
+
+.book-type #type-book{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.categories #category-type{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.categories #category{
+    margin-bottom: 2px;
+}
+
+::placeholder{
+    color: #b8b8b8;
+}
+
+.big-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin-right: 4px;
+}
+
+h1{
+    backdrop-filter: blur(10px);
 }
