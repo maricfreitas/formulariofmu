@@ -37,7 +37,7 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 - [x] Vercel.
 
 ## Como Rodar?
-<p align="justify">&emsp;O formulário foi hospedado no <a href="https://vercel.com">Vercel</a>, e para acessá-lo, basta copiar o link (https://formulariofmu.vercel.app/) ou <a href="https://formulariofmu.vercel.app/">clicar aqui</a>.
+<p align="justify">&emsp;O formulário foi hospedado no <a href="https://vercel.com">Vercel</a>, e para acessá-lo, basta copiar o link (https://formulariofmu.vercel.app/) e colar no seu navegador ou <a href="https://formulariofmu.vercel.app/">clicar aqui</a>.
 
 ## Pessoas Autoras
 - Alan Ishikawa;
