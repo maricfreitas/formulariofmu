@@ -10,7 +10,8 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 3. <a href="#layout">Layout</a>
 4. <a href="#como-rodar">Como Rodar o Projeto?</a>
 5. <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
-6. <a href="#pessoas-autoras">Pessoas Autoras</a>
+6. <a href="#tabela">Tabela</a>
+7. <a href="#pessoas-autoras">Pessoas Autoras</a>
 
 ## Como Funciona?
 <p align="justify">&emsp;Trata-se de um formulário que será utilizado não apenas para estudarmos os gêneros literários mais lidos, mas também uma forma de divulgar livros relacionados para incentivar ainda mais a leitura e impulsionar as vendas de outros livros importantes do acervo.<br>&emsp;No formulário, o leitor precisará inserir os dados de identificação e contato, o tipo de mídia, autor preferido e o gênero literário. Após isso, um botão de indicação de livros poderá ser acionado para num pop-up a indicação ser mostrada.<br>&emsp;Caso o usuário não selecione o gênero literário, uma mensagem ("Por favor, selecione pelo menos uma categoria.") aparecerá solicitando o preenchimento.<br>&emsp;Ao acionar os botões "Enviar" e "Cancelar", os dados preenchidos no formulário serão apagados para que uma nova pesquisa seja iniciada e um pop-up com a mensagem "Formulário enviado com sucesso" aparecerá ao "pressionar"o primeiro botão.</p>
@@ -34,7 +35,24 @@ A Pesquisa tem por finalidade melhorar a experiência dos nossos leitores a fim 
 - [x] CSS;
 - [x] CSS-Bootstrap;
 - [x] Javascript;
-- [x] Vercel.
+- [x] Vercel;
+- [x] PHP;
+- [x] SQL.
+
+## Tabela
+<p align="justify">&emsp;Código utilizado para a criação da tabela:<br><br>CREATE TABLE generos_literarios (<br>
+    id INT AUTO_INCREMENT PRIMARY KEY,<br>
+    email VARCHAR(255) NOT NULL,<br>
+    nome VARCHAR(255) NOT NULL,<br>
+    data_nasc DATE,<br>
+    cpf VARCHAR(14),<br>
+    fone VARCHAR(11),<br>
+    carteirinha VARCHAR(6),<br>
+    tipo_livro VARCHAR(10),<br>
+    autor_favorito VARCHAR(255),<br>
+    categorias TEXT,<br>
+    novidades VARCHAR(3)<br>
+);</p>
 
 ## Como Rodar?
 <p align="justify">&emsp;O formulário foi hospedado no <a href="https://vercel.com">Vercel</a>, e para acessá-lo, basta copiar o link (https://formulariofmu.vercel.app/) e colar no seu navegador ou <a href="https://formulariofmu.vercel.app/">clicar aqui</a>.
